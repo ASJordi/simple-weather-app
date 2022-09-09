@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="../public/images/logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../public/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Weather App</h1>
+            <form id="get-weather-form">
+                <input type="text" name="city" id="city" placeholder="México, Miami, Berlin...">
+                <button type="submit" id="get-weather">Get Weather</button>
+            </form>
+            <div class="weather-container">
+                <!-- <div class="weather-data">
+                    <div class="city">
+                        <h2>Mexico</h2>
+                        <img src="" alt="icon">
+                    </div>
+                    <div class="temperature">
+                        <span id="temp">23</span>
+                        <span>C°</span>
+                    </div>
+                    <div class="description">
+                        Cloudy with possible showers
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="sponsor">
+            <p>Powered by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+        </div>
+    </main>
+    <div class="image__info"></div>
+    <script src="../public/app.js"></script>
+</body>
+</html>
