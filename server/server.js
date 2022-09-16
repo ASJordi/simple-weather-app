@@ -3,7 +3,7 @@ const cors = require('cors');
 const axios = require('axios');
 require('dotenv').config();
 
-const whiteList = "http://127.0.0.1:5500";
+const whiteList = "https://weather-app-nodejs.netlify.app";
 
 app = express();
 app.use(

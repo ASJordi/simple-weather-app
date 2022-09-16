@@ -12,7 +12,7 @@ const imageInfo = document.querySelector(".image__info");
 // console.log(mainSection[0]);
 
 // fetch API for Openweather
-const base_url = `https://weather-app-js.up.railway.app/api`;
+const base_url = `https://weather-app-js.up.railway.app/api/`;
 
 async function getWeather(city) {
   let requestUrl = base_url + `${city}`;
