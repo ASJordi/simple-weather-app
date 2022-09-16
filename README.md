@@ -22,7 +22,7 @@
     <a href="https://github.com/ASJordi/simple-weather-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://weather-app-nodejs.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/ASJordi/simple-weather-app/issues">Report Bug</a>
     ·
@@ -57,10 +57,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]()
+[![Product Name Screen Shot][product-screenshot]](https://weather-app-nodejs.netlify.app)
 
 Weather App using HTML, CSS and JavaScript for the entire frontend. As well as, NodeJS and Express for the entire server-side. 
-For this project I’ll use 2 APIs: The first is the OpenWeatherMap API and it will handle and give the data for the weather. The second is the Unsplash API and it will deliver the picture that is going to be used as background, when requesting the weather for a city. 
+For this project I’ll use 2 APIs: The first is the OpenWeatherMap API and it will handle and give the data for the weather. The second is the Unsplash API and it will deliver the picture that is going to be used as background, when requesting the weather for a city. The frontend of the application was deployed on Netlify. The backend of the application was deployed on Railway.
 ### Built With
 
 * HTML5
