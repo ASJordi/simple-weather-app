@@ -3,8 +3,15 @@ const cors = require('cors');
 const axios = require('axios');
 require('dotenv').config();
 
+const whiteList = "http://127.0.0.1:5500";
+
 app = express();
-app.use(cors());
+app.use(
+    cors({
+        origin: whiteList,
+    })
+); // origin: * --> origin: mywebsite.com
+
 app.use(express.json());
 
 //Varaibles
