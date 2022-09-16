@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://link-shortly.netlify.app/)
+[![Product Name Screen Shot][product-screenshot]]()
 
 Weather App using HTML, CSS and JavaScript for the entire frontend. As well as, NodeJS and Express for the entire server-side. 
 For this project I’ll use 2 APIs: The first is the OpenWeatherMap API and it will handle and give the data for the weather. The second is the Unsplash API and it will deliver the picture that is going to be used as background, when requesting the weather for a city. 
