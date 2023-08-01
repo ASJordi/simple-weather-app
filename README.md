@@ -17,7 +17,7 @@
   <h3 align="center">Weather App</h3>
 
   <p align="center">
-    Weather App build with HTML, CSS, JavaScript, Express and NodeJS. 
+    Weather App build with HTML, CSS, JavaScript, Express and NodeJS.
     <br />
     <a href="https://github.com/ASJordi/simple-weather-app"><strong>Explore the docs »</strong></a>
     <br />
@@ -55,21 +55,24 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://weather-app-nodejs.netlify.app)
 
-Weather App using HTML, CSS and JavaScript for the entire frontend. As well as, NodeJS and Express for the entire server-side. 
-For this project I’ll use 2 APIs: The first is the OpenWeatherMap API and it will handle and give the data for the weather. The second is the Unsplash API and it will deliver the picture that is going to be used as background, when requesting the weather for a city. The frontend of the application was deployed on Netlify. The backend of the application was deployed on Railway.
+Weather App using HTML, CSS and JavaScript for the entire frontend. As well as, NodeJS and Express for the entire server-side.
+For this project I’ll use 2 APIs: The first is the OpenWeatherMap API and it will handle and give the data for the weather. The second is the Unsplash API and it will deliver the picture that is going to be used as background, when requesting the weather for a city. The frontend of the application was deployed on Netlify. The backend of the application was deployed on Render.
+
 ### Built With
 
-* HTML5
-* CSS
-* JavaScript
-* NodeJS
-* Express
+- HTML5
+- CSS
+- JavaScript
+- NodeJS
+- Express
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -77,12 +80,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 List of prerequisites to use the application correctly.
-* [NodeJS](https://nodejs.org/en/download)
-* To check if NPM is installed, run the following command in your terminal:
+
+- [NodeJS](https://nodejs.org/en/download)
+- To check if NPM is installed, run the following command in your terminal:
   ```sh
   npm -v
   ```
-* Create an account in [OpenWeatherMap](https://openweathermap.org/api) and [Unsplash](https://unsplash.com/developers) to get your API keys.
+- Create an account in [OpenWeatherMap](https://openweathermap.org/api) and [Unsplash](https://unsplash.com/developers) to get your API keys.
+
 ### Installation
 
 _This section describes the application installation and configuration process for the frontend and backend._
@@ -100,7 +105,7 @@ _This section describes the application installation and configuration process f
    // .env file
    WEATHER_API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'
    UNSPLASH_API_KEY = 'YOUR_UNSPLASH_API_KEY'
-    ``` 
+   ```
 4. Set your API URL in the frontend
    ```JS
    // client\public\app.js
@@ -110,16 +115,20 @@ _This section describes the application installation and configuration process f
    ```sh
    npm run dev
    ```
-6.  Run the frontend (with VSCode Live Server)
+6. Run the frontend (with VSCode Live Server)
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
+
 The operation of the application is very simple. It is only necessary to enter the name of the desired city. In automatic the page will show the weather forecast.
 
 [![Product Name Screen Shot][product-screenshot-empty]]()
 
 [![Product Name Screen Shot][product-screenshot]]()
+
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -134,11 +143,13 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
 Jordi Ayala - [@ASJordi](https://twitter.com/ASJordi)
